@@ -1,14 +1,32 @@
-<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="250" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="8100" type="RT">
+<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="300" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="1" aat_min_time="9000" type="AAT">
 	<Point type="Start">
-		<Waypoint altitude="129" comment="" id="1" name="001SPBronkow">
-			<Location latitude="51.6683" longitude="13.9633"/>
+		<Waypoint altitude="90" comment="" id="2" name="002SPAltdoebern">
+			<Location latitude="51.6514" longitude="14.0358"/>
 		</Waypoint>
 		<ObservationZone length="20000" type="Line"/>
+	</Point>
+	<Point type="Area">
+		<Waypoint altitude="130" comment="" id="433" name="435Weisswasser">
+			<Location latitude="51.5056" longitude="14.6381"/>
+		</Waypoint>
+		<ObservationZone radius="15000" type="Cylinder"/>
+	</Point>
+	<Point type="Area">
+		<Waypoint altitude="150" comment="" id="119" name="121Fuenfeichen">
+			<Location latitude="52.1378" longitude="14.5411"/>
+		</Waypoint>
+		<ObservationZone radius="20000" type="Cylinder"/>
+	</Point>
+	<Point type="Area">
+		<Waypoint altitude="87" comment="" id="167" name="169Herbersdorf">
+			<Location latitude="51.86" longitude="13.297"/>
+		</Waypoint>
+		<ObservationZone radius="20000" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="129" comment="" id="1" name="001SPBronkow">
 			<Location latitude="51.6683" longitude="13.9633"/>
 		</Waypoint>
-		<ObservationZone radius="5000" type="Cylinder"/>
+		<ObservationZone length="3000" type="Line"/>
 	</Point>
 </Task>
