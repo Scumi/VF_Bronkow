@@ -1,32 +1,32 @@
-<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="300" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="1" aat_min_time="9000" type="AAT">
+<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="300" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="9000" type="RT">
 	<Point type="Start">
-		<Waypoint altitude="90" comment="" id="2" name="002SPAltdoebern">
-			<Location latitude="51.6514" longitude="14.0358"/>
+		<Waypoint altitude="129" comment="" id="1" name="001SPBronkow">
+			<Location latitude="51.6683" longitude="13.9633"/>
 		</Waypoint>
 		<ObservationZone length="20000" type="Line"/>
 	</Point>
-	<Point type="Area">
-		<Waypoint altitude="130" comment="" id="433" name="435Weisswasser">
-			<Location latitude="51.5056" longitude="14.6381"/>
+	<Point type="Turn">
+		<Waypoint altitude="146" comment="" id="421" name="423Walddorf">
+			<Location latitude="51.4056" longitude="14.862"/>
 		</Waypoint>
-		<ObservationZone radius="15000" type="Cylinder"/>
+		<ObservationZone type="Keyhole"/>
 	</Point>
-	<Point type="Area">
+	<Point type="Turn">
 		<Waypoint altitude="150" comment="" id="119" name="121Fuenfeichen">
 			<Location latitude="52.1378" longitude="14.5411"/>
 		</Waypoint>
-		<ObservationZone radius="20000" type="Cylinder"/>
+		<ObservationZone type="Keyhole"/>
 	</Point>
-	<Point type="Area">
-		<Waypoint altitude="87" comment="" id="167" name="169Herbersdorf">
-			<Location latitude="51.86" longitude="13.297"/>
+	<Point type="Turn">
+		<Waypoint altitude="101" comment="" id="358" name="360Schoena Kolpien">
+			<Location latitude="51.8158" longitude="13.445"/>
 		</Waypoint>
-		<ObservationZone radius="20000" type="Cylinder"/>
+		<ObservationZone type="Keyhole"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="129" comment="" id="1" name="001SPBronkow">
 			<Location latitude="51.6683" longitude="13.9633"/>
 		</Waypoint>
-		<ObservationZone length="3000" type="Line"/>
+		<ObservationZone radius="3000" type="Cylinder"/>
 	</Point>
 </Task>
