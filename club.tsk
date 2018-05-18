@@ -1,21 +1,21 @@
-<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="300" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="1" aat_min_time="9000" type="AAT">
+<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="300" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="9000" type="RT">
 	<Point type="Start">
 		<Waypoint altitude="129" comment="" id="1" name="001SPBronkow">
 			<Location latitude="51.6683" longitude="13.9633"/>
 		</Waypoint>
 		<ObservationZone length="20000" type="Line"/>
 	</Point>
-	<Point type="Area">
-		<Waypoint altitude="122" comment="" id="412" name="414Tschernitz">
-			<Location latitude="51.5736" longitude="14.637"/>
+	<Point type="Turn">
+		<Waypoint altitude="130" comment="" id="433" name="435Weisswasser">
+			<Location latitude="51.5056" longitude="14.6381"/>
 		</Waypoint>
-		<ObservationZone radius="25000" type="Cylinder"/>
+		<ObservationZone type="Keyhole"/>
 	</Point>
-	<Point type="Area">
-		<Waypoint altitude="93" comment="" id="462" name="464Zellendorf">
-			<Location latitude="51.8658" longitude="13.0283"/>
+	<Point type="Turn">
+		<Waypoint altitude="96" comment="" id="386" name="388Streichwitz">
+			<Location latitude="52.0653" longitude="14.6531"/>
 		</Waypoint>
-		<ObservationZone radius="40000" type="Cylinder"/>
+		<ObservationZone type="Keyhole"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="129" comment="" id="1" name="001SPBronkow">
