@@ -17,6 +17,12 @@
 		</Waypoint>
 		<ObservationZone type="Keyhole"/>
 	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="150" comment="" id="75" name="077Crinitz">
+			<Location latitude="51.7236" longitude="13.7903"/>
+		</Waypoint>
+		<ObservationZone type="Keyhole"/>
+	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="129" comment="" id="1" name="001SPBronkow">
 			<Location latitude="51.6683" longitude="13.9633"/>

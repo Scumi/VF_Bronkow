@@ -12,8 +12,14 @@
 		<ObservationZone type="Keyhole"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="96" comment="" id="386" name="388Streichwitz">
-			<Location latitude="52.0653" longitude="14.6531"/>
+		<Waypoint altitude="48" comment="" id="337" name="339Rapice">
+			<Location latitude="52.1114" longitude="14.7297"/>
+		</Waypoint>
+		<ObservationZone type="Keyhole"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="150" comment="" id="75" name="077Crinitz">
+			<Location latitude="51.7236" longitude="13.7903"/>
 		</Waypoint>
 		<ObservationZone type="Keyhole"/>
 	</Point>
