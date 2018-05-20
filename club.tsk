@@ -1,27 +1,27 @@
-<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="300" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="9000" type="RT">
+<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="300" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="1" aat_min_time="10800" type="AAT">
 	<Point type="Start">
 		<Waypoint altitude="129" comment="" id="1" name="001SPBronkow">
 			<Location latitude="51.6683" longitude="13.9633"/>
 		</Waypoint>
 		<ObservationZone length="20000" type="Line"/>
 	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="130" comment="" id="433" name="435Weisswasser">
-			<Location latitude="51.5056" longitude="14.6381"/>
+	<Point type="Area">
+		<Waypoint altitude="255" comment="" id="135" name="137Goerlitz">
+			<Location latitude="51.1981" longitude="14.9631"/>
 		</Waypoint>
-		<ObservationZone type="Keyhole"/>
+		<ObservationZone radius="30000" type="Cylinder"/>
 	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="48" comment="" id="337" name="339Rapice">
-			<Location latitude="52.1114" longitude="14.7297"/>
+	<Point type="Area">
+		<Waypoint altitude="88" comment="" id="318" name="320Pinnow">
+			<Location latitude="51.9795" longitude="14.537"/>
 		</Waypoint>
-		<ObservationZone type="Keyhole"/>
+		<ObservationZone radius="20000" type="Cylinder"/>
 	</Point>
-	<Point type="Turn">
+	<Point type="Area">
 		<Waypoint altitude="150" comment="" id="75" name="077Crinitz">
 			<Location latitude="51.7236" longitude="13.7903"/>
 		</Waypoint>
-		<ObservationZone type="Keyhole"/>
+		<ObservationZone radius="1000" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="129" comment="" id="1" name="001SPBronkow">
