@@ -1,17 +1,17 @@
-# VF_Bronkow_2018
-1st Spreewaldpokal - Livetracking Data
+# VF_Bronkow
+Spreewaldpokal - Livetracking Data
 
-Tasks and participants for 1. Spreewaldpokal in Bronkow
-Live tracking via OGN is accessible via following URLs:
+Tasks and participants for the Spreewaldpokal at airfield Bronkow.
+Live-tracking and live-scoring via OGN is accessible via following URLs:
 
-Club Class (with task)
+**Club Class (with task)**
 
-http://glidertracker.org/#lst=https://raw.githubusercontent.com/Scumi/VF_Bronkow_2018/master/teilnehmer_club.csv&tsk=https://raw.githubusercontent.com/Scumi/VF_Bronkow_2018/master/club.tsk&nowelcome
+https://ogn.cloud/#lst=https://raw.githubusercontent.com/Scumi/VF_Bronkow_2018/master/teilnehmer_club.csv&tsk=https://raw.githubusercontent.com/Scumi/VF_Bronkow_2018/master/club.tsk
 
-Open Class (with task)
+**Open Class (with task)**
 
-http://glidertracker.org/#lst=https://raw.githubusercontent.com/Scumi/VF_Bronkow_2018/master/teilnehmer_offen.csv&tsk=https://raw.githubusercontent.com/Scumi/VF_Bronkow_2018/master/offen.tsk&nowelcome
+https://ogn.cloud/#lst=https://raw.githubusercontent.com/Scumi/VF_Bronkow_2018/master/teilnehmer_offen.csv&tsk=https://raw.githubusercontent.com/Scumi/VF_Bronkow_2018/master/offen.tsk
 
-All Participants (without task)
 
-http://glidertracker.org/#lat=51.640&lon=14.009&z=9&lst=https://raw.githubusercontent.com/Scumi/VF_Bronkow_2018/master/teilnehmer.csv&nowelcome
+Example URL from T. Bieniek
+https://ogn.cloud/#tsk=https://gist.github.com/bla&lst=https://gist.github.com/blubb
